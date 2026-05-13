@@ -1,0 +1,55 @@
+title: Cloud Native Java EE på Red Hat-stack
+subtitle: Strategisk containerarkitektur med Podman, OpenShift, moderna databaser,
+  köhantering, Elasticsearch och Ceph
+author: Erland Lindmark
+language: sv
+difficulty: experienced
+audience: Lösningsarkitekter och erfarna Java EE-utvecklare
+book_type: architecture handbook
+edition: '1'
+version: '0.1'
+date: '2026-05-12'
+rights: All rights reserved
+publisher: ''
+cover_image: ''
+chapters:
+- chapters/00-inledning.md
+- chapters/01-varfor-cloud-native-modernisering.md
+- chapters/02-containerteknik-med-podman-och-oci.md
+- chapters/03-openshift-som-plattform.md
+- chapters/04-sakerhet-och-governance-i-red-hat-stack.md
+- chapters/05-dataarkitektur-och-modernisering-fran-oracle.md
+- chapters/06-messaging-och-eventdrivna-monster.md
+- chapters/07-elasticsearch-som-sekundart-index.md
+- chapters/08-ceph-och-stateful-workloads.md
+- chapters/09-cloud-native-driftsmodell.md
+- chapters/10-disaster-recovery-backup-och-kontinuitet.md
+- chapters/11-strangler-pattern-och-stegvis-migrering.md
+- chapters/12-fran-java-ee-till-cloud-native-java.md
+- chapters/13-integration-transaktioner-och-konsistens.md
+- chapters/14-observability-och-operativ-mognad.md
+- chapters/15-beslutsmodell-for-teknikval.md
+- chapters/16-malarkitektur-och-roadmap.md
+exports:
+  epub: true
+  docx: true
+  pdf: true
+  markdown: true
+description: En arkitekturhandbok för modernisering från Java EE, Oracle och IBM MQ
+  mot Podman, OpenShift och cloud native-mönster på Red Hat-stack.
+subject:
+- cloud native
+- OpenShift
+- Podman
+- Java EE
+- Red Hat
+- arkitektur
+- modernisering
+epub_ready: true
+pdf_ready: true
+export_notes:
+- Författare är satt till Erland Lindmark.
+- Språk är satt till svenska.
+- Kapitelordning inkluderar 00-inledning.md före Kapitel 1.
+- Metadata innehåller title, author, language, description, subject och chapters.
+- EPUB/PDF-export kan skapas från chapters-listan i angiven ordning.
